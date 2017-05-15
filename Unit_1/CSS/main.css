@@ -1,7 +1,12 @@
 body {
-    background-color: blue;
+    background-color: aqua;
 }
 
-h1, p {
-    color: gold;
+h1, h2 {
+	text-align: center;
+    color: navy;
+}
+p {
+	color: purple;
+	text-align: center;
 }
