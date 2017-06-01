@@ -1,0 +1,38 @@
+body {
+	background-color: #E2CBE1;
+	backface-visibility: 30%;
+}
+h1 { 
+	text-align: center; 
+	font: georgia; 
+	font-size: 45px;
+}
+header {
+	background-color: white;
+	color: black;
+	width: auto;
+	height: 200px;
+}
+#slogan {
+	font-style: italic;
+	font: times;
+	font-size: 20px;
+	text-align: center;
+}
+img {
+	image-rendering: 4px;
+	resize: 4px;
+	float:left;
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+p {
+	text-align: center;
+}
+#intro {
+	font-size: 20px;
+	float: right;
+	padding-top: 10px;
+}
+#newyorkimage {
+	float: right;
+}
