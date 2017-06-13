@@ -1,14 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+
 body {
-	background-color: #e2cbe1;
+	background-color: white;
 	backface-visibility: 30%;
+	margin: 2em;
+	line-height: 1.5em;
 }
 h1 { 
 	text-align: center; 
-	font: georgia; 
-	font-size: 45px;
+	font-family: 'Dancing Script'; 
+	font-size: 60px;
 }
 header {
-	background-color: white;
 	color: black;
 	width: auto;
 	height: 200px;
@@ -16,8 +19,9 @@ header {
 #slogan {
 	font-style: italic;
 	font: times;
-	font-size: 20px;
+	font-size: 15px;
 	text-align: center;
+
 }
 img {
 	image-rendering: 4px;
@@ -25,8 +29,16 @@ img {
 	float:left;
     box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
+
 p {
-	text-align: center;
+	text-align: left;
+	width: 30em;
+	float: left;
+
+}
+h2 {
+	text-indent: 20px; 
+	text-align: left;
 }
 #intro {
 	font-size: 20px;
