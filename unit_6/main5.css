@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+
+body {
+	background-color: white;
+	backface-visibility: 30%;
+	line-height: 1.5em;
+	border-color: black;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+header {
+	background-color: #fff7fe;
+	width: auto;
+	height: auto;
+}
+h1 { 
+	text-align: center; 
+	font-family: 'Dancing Script'; 
+	font-size: 60px;
+	padding: 1em;
+}
+
+#slogan {
+	font-style: italic;
+	font: times;
+	font-size: 24px;
+	text-align: center;
+	padding-bottom: 1.5em;
+}
+nav { 
+	background-color: #e8e8e8;
+	padding:1.5em;
+	text-decoration: black;
+	word-spacing: 2em;
+	text-transform: uppercase;
+	text-align: center;
+ }
+#two_column {
+    background-color: #e8e8e8;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#left {
+    background-color: #fff7fe;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 41%;
+}
+
+#right {
+    background-color: #fff7fe;
+    border: 1px black solid;
+    padding: 20px;
+    float:right;
+    width: 52%;
+}
+
+
+ a {
+ 	color: black;
+ }
+
+}
+aside {
+	background-color: #e8e8e8;
+}
+
+#one {
+	display: block;
+	background-color: #d6fffa;
+	font-size: 21px;
+	padding: 1.5em;
+	line-height: 1.5em;
+}
+#two {
+	background-color: #d6fffa;
+	padding:14em 1.5em;
+}
+
+footer {
+	background-color: #fff7fe;
+	padding:1em;
+	text-align: center;
+}
